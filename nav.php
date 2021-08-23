@@ -1,7 +1,7 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="home.php">WebSiteName</a>
+      <a class="navbar-brand" href="home.php">SmartCalculator</a>
     </div>
     <?php if(ISSET($_SESSION['user_id'])){ ?>
     <ul class="nav navbar-nav">

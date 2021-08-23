@@ -27,9 +27,12 @@
 		<hr />
 		<?php		
 		require_once'conn.php';
-		$returned_set=$conn->query("SELECT * FROM `history` WHERE 1");
+		$user_id = $_SESSION['user_id'];
+		$returned_set=$conn->query("SELECT * FROM `history` WHERE user_id=".$user_id);
 		$count = 1;
-		while($result = $returned_set->fetchArray()) {?>
+		while($result = $returned_set->fetchArray()) {
+		
+		?>
 		<div class=" col-md-10 col-sm-10">
 			<?php echo $count.", "; ?>
 			<?php echo $result["expression"]; ?>
