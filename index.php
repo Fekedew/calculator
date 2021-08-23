@@ -10,7 +10,7 @@
 <?php include "./nav.php"; ?>
 	<div class="col-md-3"></div>
 	<div class="col-md-6 well">
-		<h3 class="text-primary">PHP - Complete Registration Login Form In SQLite</h3>
+		<h3 class="text-primary">PHP - Smart calculator</h3>
 		<hr style="border-top:1px dotted #ccc;"/>
 		<div class="col-md-5">
 			<form action="" method="POST">
